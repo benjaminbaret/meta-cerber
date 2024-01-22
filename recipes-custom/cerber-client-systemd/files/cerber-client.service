@@ -1,0 +1,9 @@
+[Unit]
+Description=Cerber client service
+
+[Service]
+ExecStart=/usr/bin/cerber-client
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
